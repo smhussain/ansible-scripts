@@ -9,13 +9,13 @@
 #######################################################################################################
 
 # Default values
-ANSIBLE_TOWER_URL="https://ec2-18-224-32-194.us-east-2.compute.amazonaws.com:443"
-ANSIBLE_TOWER_JOB_CONFIGKEY="0df114828b39ed1e1a765dc45d710ad2"
-ANSIBLE_TOWER_JOB_TEMPLATE=13
+ANSIBLE_TOWER_URL="https://ec2-35-164-8-189.us-west-2.compute.amazonaws.com:443"
+ANSIBLE_TOWER_JOB_CONFIGKEY="43072d3f434d311f3164e732a459e460"
+ANSIBLE_TOWER_JOB_TEMPLATE=12
 ANSIBLE_TOWER_JOB_EXTRAVARS="{}"
 
 JQ_DOWNLOAD_URL="https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64"
-BOOTSTRAP_SUPPORT_DOWNLOAD_URL="https://github.com/invhariharan77/myapp/raw/master/bootstrap_artifacts.zip"
+BOOTSTRAP_SUPPORT_DOWNLOAD_URL="https://github.com/smhussain/ansible-scripts/raw/master/bootstrap_artifacts.zip"
 
 # log to output
 function log {
